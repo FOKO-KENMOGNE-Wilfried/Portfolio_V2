@@ -4,7 +4,17 @@ const StyledGlobalStyle = createGlobalStyle`
     *{
         margin: 0;
         padding: 0;
-        boxSizing: border-box;
+        box-sizing: border-box;
+        font-family: kanit;
+    }
+    body{
+        background: linear-gradient(
+            to right,
+            #131616,
+            #2B2D2D,
+            #000000
+        );
+        color: white;
     }
 `
 
