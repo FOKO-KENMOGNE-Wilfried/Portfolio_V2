@@ -1,9 +1,12 @@
+import Container from "../../components/Container";
 
 
 function Contacts(){
     return (
         <div>
-            Contacts
+            <Container label={"Contacts"}>
+
+            </Container>
         </div>
     )
 }

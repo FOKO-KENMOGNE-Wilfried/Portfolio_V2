@@ -1,9 +1,12 @@
+import Container from "../../components/Container";
 
 
 function Project(){
     return (
         <div>
-            Project
+            <Container label={"Projects"}>
+
+            </Container>
         </div>
     )
 }

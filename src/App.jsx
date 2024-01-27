@@ -1,11 +1,15 @@
 import './index.css'
 import About from './pages/About';
+import Skills from './pages/Skills';
+import Tools from './pages/Tools/ index';
 
 function App() {
   return (
-    <h1>
+    <div className='flex flex-col gap-32'>
       <About />
-    </h1>
+      <Skills />
+      <Tools />
+    </div>
   )
 }
 

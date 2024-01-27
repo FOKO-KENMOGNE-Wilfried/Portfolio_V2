@@ -15,7 +15,7 @@ function About(){
                             <img src={profile} alt="profile" className="absolute w-60 bottom-16 left-20"/>
                         </div>
                     </div>
-                    <div className="flex flex-col items-center bottom-0 z-20 bg-primary text-2xl w-7/12 p-10 text-center rounded-about">
+                    <div className="flex flex-col items-center bottom-0 z-20 bg-primary text-2xl w-7/12 p-10 text-center rounded-about -mt-28">
                         <h1 className="text-5xl">ABOUT ME</h1>
                         I'm FOKO Wilfried a young Camerounian, 
                         front-end developer and computer engeneering 
