@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" version="1.1" xml:space="preserve">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="Glyph_copy_2">
+   <path d="m63.13,9.98c-0.91,-1.32 -2.42,-2.2 -4.14,-2.2l-53.98,0c-1.68,0 -3.16,0.85 -4.07,2.12l31.16,25.98l31.03,-25.9z" fill="#000000" id="svg_1"/>
+   <path d="m0.01,14.33l0,36.89c0,2.75 2.25,5 5,5l53.98,0c2.75,0 5,-2.25 5,-5l0,-36.76l-31.89,26.63l-32.09,-26.76z" fill="#000000" id="svg_2"/>
+  </g>
+ </g>
+</svg>
