@@ -3,7 +3,7 @@ import profile from "../../assets/img/profile.png";
 function About(){
     return (
         <div className="flex flex-col justify-center items-center w-10/12">
-            <div className="flex flex-col pt-16 w-11/12 border-2">
+            <div className="flex flex-col pt-16 w-9/12 border-2">
                 <div className="border-2 border-red-800 w-1/4 text-2xl">
                     Hello ! I’me Wilfried FOKO KENMOGNE a young computer engineer 
                     and Web Developer
@@ -15,8 +15,8 @@ function About(){
                             <img src={profile} alt="profile" className="absolute w-60 bottom-16 left-20"/>
                         </div>
                     </div>
-                    <div className="flex flex-col items-center bottom-0 z-20 bg-primary text-2xl w-7/12 p-10 text-center rounded-about -mt-28">
-                        <h1 className="text-5xl">ABOUT ME</h1>
+                    <div className="flex flex-col items-center bottom-0 z-20 bg-primary text-2xl w-12/12 p-10 text-center rounded-about -mt-28">
+                        <h1 className="text-5xl mb-8">ABOUT ME</h1>
                         I'm FOKO Wilfried a young Camerounian, 
                         front-end developer and computer engeneering 
                         student. I'm passionate about IT in general but in 

@@ -7,7 +7,7 @@ import Tools from './pages/Tools/ index';
 
 function App() {
   return (
-    <div className='flex flex-col gap-32'>
+    <div className='flex flex-col gap-32 ml-52 mt-16 mb-64'>
       <About />
       <Skills />
       <Tools />
