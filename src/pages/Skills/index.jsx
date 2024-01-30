@@ -19,9 +19,9 @@ function Skills(){
         gsap.fromTo(".custom-html", {
             scale: 0,
             opacity: 0,
-            duration: 2,
-            ease: "power3.out",
         },{
+            duration: 1,
+            ease: "power3.out",
             scale: 1,
             opacity: 1,
         });

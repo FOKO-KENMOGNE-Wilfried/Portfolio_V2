@@ -5,7 +5,7 @@ const StyledGlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: kanit;
+        font-family: poppins;
     }
     body{
         background: linear-gradient(

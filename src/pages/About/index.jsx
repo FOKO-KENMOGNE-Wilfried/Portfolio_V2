@@ -3,8 +3,8 @@ import profile from "../../assets/img/profile.png";
 function About(){
     return (
         <div className="flex flex-col justify-center items-center w-10/12">
-            <div className="flex flex-col pt-16 w-9/12 border-2">
-                <div className="border-2 border-red-800 w-1/4 text-2xl">
+            <div className="flex flex-col pt-16 w-9/12">
+                <div className="w-2/4 pb-16 text-3xl">
                     Hello ! I’me Wilfried FOKO KENMOGNE a young computer engineer 
                     and Web Developer
                 </div>

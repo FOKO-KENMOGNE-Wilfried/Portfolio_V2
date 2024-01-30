@@ -1,9 +1,6 @@
-import Container from "../../components/Container";
 import { Navigation, Pagination, Autoplay,EffectCube, EffectCards,Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
 import e_learn from "../../assets/img/e_learn.png";
-import { Virtual } from 'swiper/modules';
-import { EffectFade } from 'swiper/modules';
 
 import "swiper/css";
 import 'swiper/css/navigation';
@@ -35,12 +32,40 @@ function Project(){
                                 delay: 2000,
                                 disableOnInteraction: false,
                             }}
-                            // loop={true}
+                            //loop={true}
                         >
-                            <SwiperSlide><img src={e_learn} alt="" className=" ml-8 w-11/12"/></SwiperSlide>
-                            <SwiperSlide><img src={e_learn} alt="" className=" ml-8 w-11/12"/></SwiperSlide>
-                            <SwiperSlide><img src={e_learn} alt="" className=" ml-8 w-11/12"/></SwiperSlide>
-                            <SwiperSlide><img src={e_learn} alt="" className=" ml-8 w-11/12"/></SwiperSlide>
+                            <SwiperSlide>
+                                <div className="flex flex-col m-auto bg-primary p-8 rounded-2xl w-10/12">
+                                    <div className="flex flex-row justify-center rounded-2xl p-8 bg-gray-500">
+                                        <img src={e_learn} alt="" className="rounded-2xl"/>
+                                    </div>
+                                    <p className="mt-8 w-10/12 m-auto text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quae rerum laborum ullam sequi numquam quo consectetur repellat placeat nostrum!</p>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="flex flex-col m-auto bg-primary p-8 rounded-2xl w-10/12">
+                                    <div className="flex flex-row justify-center rounded-2xl p-8 bg-gray-500">
+                                        <img src={e_learn} alt="" className="rounded-2xl"/>
+                                    </div>
+                                    <p className="mt-8 w-10/12 m-auto text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quae rerum laborum ullam sequi numquam quo consectetur repellat placeat nostrum!</p>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="flex flex-col m-auto bg-primary p-8 rounded-2xl w-10/12">
+                                    <div className="flex flex-row justify-center rounded-2xl p-8 bg-gray-500">
+                                        <img src={e_learn} alt="" className="rounded-2xl"/>
+                                    </div>
+                                    <p className="mt-8 w-10/12 m-auto text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quae rerum laborum ullam sequi numquam quo consectetur repellat placeat nostrum!</p>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="flex flex-col m-auto bg-primary p-8 rounded-2xl w-10/12">
+                                    <div className="flex flex-row justify-center rounded-2xl p-8 bg-gray-500">
+                                        <img src={e_learn} alt="" className="rounded-2xl"/>
+                                    </div>
+                                    <p className="mt-8 w-10/12 m-auto text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quae rerum laborum ullam sequi numquam quo consectetur repellat placeat nostrum!</p>
+                                </div>
+                            </SwiperSlide>
                         </Swiper>
                     </div>
                 </div>
