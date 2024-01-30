@@ -16,7 +16,7 @@ import { useEffect } from "react";
 function Skills(){
 
     function animationCards(){
-        gsap.fromTo(".custom-html", {
+        gsap.fromTo(".custom-css", {
             scale: 0,
             opacity: 0,
         },{
@@ -24,6 +24,10 @@ function Skills(){
             ease: "power3.out",
             scale: 1,
             opacity: 1,
+            stagger: {
+                each: 0.2,
+                from: "random"
+            }
         });
     }
 
@@ -34,16 +38,30 @@ function Skills(){
     return (
         <div id="skill">
             <Container label={"Skills"} css="grid grid-rows-2 grid-cols-4 gap-x-20 gap-y-16">
-                <div className="custom-html">
-                    <Card label={"HTML"} img={html}/>
+                <div className="custom-css">
+                    <Card label={"html"} img={html}/>
                 </div>
-                <Card label={"CSS"} img={css} customClassName={"custom-css"}/>
-                <Card label={"JavaScript"} img={javascript} customClassName={"custom-javascript"}/>
-                <Card label={"TailwindCss"} img={tailwindcss} customClassName={"custom-tailwindcss"}/>
-                <Card label={"React"} img={react} customClassName={"custom-react"}/>
-                <Card label={"NodeJS"} img={nodejs} customClassName={"custom-nodejs"}/>
-                <Card label={"MongoDB"} img={mongodb} customClassName={"custom-mongodb"}/>
-                <Card label={"PostgreSQL"} img={postgressql} customClassName={"custom-postgresql"}/>
+                <div className="custom-css">
+                    <Card label={"css"} img={css}/>
+                </div>
+                <div className="custom-css">
+                    <Card label={"javascript"} img={javascript}/>
+                </div>
+                <div className="custom-css">
+                    <Card label={"tailwindcss"} img={tailwindcss}/>
+                </div>
+                <div className="custom-css">
+                    <Card label={"react"} img={react}/>
+                </div>
+                <div className="custom-css">
+                    <Card label={"nodejs"} img={nodejs}/>
+                </div>
+                <div className="custom-css">
+                    <Card label={"mongoDB"} img={mongodb}/>
+                </div>
+                <div className="custom-css">
+                    <Card label={"postgreSQL"} img={postgressql}/>
+                </div>
             </Container>
         </div>
     )
