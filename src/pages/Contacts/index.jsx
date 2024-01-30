@@ -16,7 +16,7 @@ function Contacts(){
     const [isSelect1, setSelect1] = useState(false);
 
     return (
-        <div>
+        <div id="contact">
             <Container label={"Contacts"}>
                 <div
                     onMouseEnter={() => setSelect(true)}

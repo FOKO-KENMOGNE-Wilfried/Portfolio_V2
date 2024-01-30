@@ -8,7 +8,7 @@ import vscode from "../../assets/icons/vscode.svg";
 
 function Tools(){
     return (
-        <div>
+        <div id="tool">
             <Container label={"Tools"} css="grid grid-rows-1 grid-cols-4 gap-x-20 gap-y-16">
                 <Card label={"Git"} img={git}/>
                 <Card label={"GitHub"} img={github}/>

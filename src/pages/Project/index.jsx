@@ -10,10 +10,10 @@ import 'swiper/css/scrollbar';
 
 function Project(){
     return (
-        <div>
+        <div id='project'>
             <div className="flex flex-col justify-center items-center w-10/12 relative">
                     <div className="border text-4xl w-72 bg-primary border-primary absolute -top-8 rounded-xl p-2 flex flex-row justify-center">
-                        label
+                        Projects
                     </div>
                 <div className="flex border-primary border-8 flex-col  justify-center pt-16 w-9/12 rounded-2xl pb-10">
                     <div>

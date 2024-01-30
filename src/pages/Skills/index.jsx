@@ -32,7 +32,7 @@ function Skills(){
     }, []);
 
     return (
-        <div>
+        <div id="skill">
             <Container label={"Skills"} css="grid grid-rows-2 grid-cols-4 gap-x-20 gap-y-16">
                 <div className="custom-html">
                     <Card label={"HTML"} img={html}/>

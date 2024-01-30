@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import menu from "../../assets/icons/menu.jpg";
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 
 function Header(){
@@ -24,10 +25,37 @@ function Header(){
                     <img src={menu} alt="menu" className="w-20" onClick={() => handleClick()}/>
                 </div>
                 <div className="flex flex-row justify-center items-center gap-10 text-2xl">
-                    <NavLink>About</NavLink>
-                    <NavLink>Skills</NavLink>
-                    <NavLink>project</NavLink>
-                    <NavLink>Contacts</NavLink>
+                    <Link
+                        to="about"
+                        smooth={true}
+                        offset={10}
+                        duration={500}
+                    >
+                        About
+                    </Link>
+                    <Link
+                        to="skill"
+                        smooth={true}
+                        offset={-50}
+                        duration={500}
+                    >
+                        Skills
+                    </Link>
+                    <Link
+                        to="project"
+                        smooth={true}
+                        offset={-50}
+                        duration={500}
+                    >
+                        project
+                    </Link>
+                    <Link
+                        to="contact"
+                        smooth={true}
+                        duration={500}
+                    >
+                        Contacts
+                    </Link>
                 </div>
             </div>
         </div>

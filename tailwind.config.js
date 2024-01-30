@@ -13,6 +13,7 @@ export default {
       spacing: {
         "navbar": "50%",
         "img": "100px",
+        "border": "450px"
       },
       borderRadius: {
         "about": "60px",
